@@ -7,11 +7,11 @@ import { ListadoComponent } from './listado/listado.component';
 
 
 @NgModule({
-    declarations:[
+    declarations: [
         HeroeComponent,
         ListadoComponent
     ],
-    exports:[
+    exports: [
         ListadoComponent
     ],
     imports: [
@@ -22,4 +22,4 @@ import { ListadoComponent } from './listado/listado.component';
 })
 
 
-export class HeroesModule{}
+export class HeroesModule { }
